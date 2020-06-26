@@ -18,11 +18,21 @@ almost every distro.
 ## Installing
 Copy the scripts somewhere on your system into the same folder and edit the
 aliashelper.settings to enter the path to your `.aliases` file. The standard
-path is `"$HOME/.aliases.sh"`. After doing this add the `aliashelp.sh` script
+path is `    "$HOME/.aliases.sh"`. After doing this add the `aliashelp.sh` script
 to your aliases.<br> E.g.
-```    alias aliases='/somepath/aliashelper/aliashelp.sh'     ```
+```    alias aliases='/somepath/aliashelper/aliashelp.sh' ```
 
 
 ## Usage
-After aliasing the aliashelper you can just use youre alias for the helper (plus a keyword for filtering)
+The aliashelper simply prints the aliasname and the bash-comment behind your alias declaration. Therfore in your `.aliases` file, the aliases must be in the form
+ ```
+alias aliasname="..." #short description    
+``` 
+E.g. 
+```
+alias editaliases="nano -l ~/.aliases" #Edit the .aliases file
+```
+After aliasing the aliashelper you can just use your alias for the helper (plus a keyword for filtering)
 E.g. ```aliases``` or ```aliases <your keyword>```
+
+After aliasing the aliashelper you can just use your alias for the helper (plus a keyword for filtering) E.g. ```aliases``` or ```    aliases <your keyword>```
