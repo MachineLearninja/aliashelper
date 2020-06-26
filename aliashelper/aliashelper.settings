@@ -1,0 +1,6 @@
+#This is the aliasfile, from which the list is generated
+aliasesfile="$HOME/.aliases.sh"
+
+#These are the escapecodes for the coloring of the rows
+color1="\e[31m"
+color2="\e[37m"
