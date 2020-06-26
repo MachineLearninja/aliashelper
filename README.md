@@ -32,7 +32,5 @@ E.g.
 ```
 alias editaliases="nano -l ~/.aliases" #Edit the .aliases file
 ```
-After aliasing the aliashelper you can just use your alias for the helper (plus a keyword for filtering)
-E.g. ```aliases``` or ```aliases <your keyword>```
 
 After aliasing the aliashelper you can just use your alias for the helper (plus a keyword for filtering) E.g. ```aliases``` or ```    aliases <your keyword>```
