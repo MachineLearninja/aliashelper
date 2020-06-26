@@ -4,7 +4,9 @@ Yeah me, too. <br>
 Because of that, i wrote a small simple bash script which lists all
 of your aliases plus a short description of your commands. The output
 is formatted and colored binary to increase readability. You also can
-filter the alias-list aliases just by giving a keyword.
+filter the alias list just by giving a keyword.
+
+<img src="/screenshot.png" alt="Screenshot" width="300">
 
 ## Prequisites
 In order to use the script, you need to separate your aliases from .bashrc in
